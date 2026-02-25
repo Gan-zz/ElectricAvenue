@@ -9,7 +9,7 @@ public class TestScript : MonoBehaviour
         Debug.Log("Hello");
         Debug.LogError("Hello");
         Debug.LogWarning("Hello");
-        transform.Rotate(0, 0, 180);
+        
     }
 
     // Update is called once per frame
@@ -17,6 +17,7 @@ public class TestScript : MonoBehaviour
     {
         // Every frame sends this message to the console, very spammy
         Debug.Log("Hello!");
+        transform.Rotate(0.1f, 0.1f, 0.1f);
     }
 
 }
