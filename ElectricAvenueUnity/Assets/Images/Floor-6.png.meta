@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b27efa7469d51c94f862be9a505f2752
+guid: a83565c04d4b1fa4d866871b48a72480
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2606233326526334400
-    second: Sprite-Floor_0
+      213: 5673277271746583927
+    second: Floor-6_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -73,9 +73,9 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprite-Floor_0
+      name: Floor-6_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 32
-        height: 17
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 04afc92199cc4dbd0800000000000000
-      internalID: -2606233326526334400
+      spriteID: 77d90cece978bbe40800000000000000
+      internalID: 5673277271746583927
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Sprite-Floor_0: -2606233326526334400
+      Floor-6_0: 5673277271746583927
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
