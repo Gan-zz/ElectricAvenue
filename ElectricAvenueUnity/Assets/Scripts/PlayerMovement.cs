@@ -6,6 +6,22 @@ public class PlayerMovement : MonoBehaviour
     public float verticalSpeed = 1f; //vertical movement
     private Rigidbody2D physicsBody = null;
 
+    public void Update()
+    {
+        // Get our rigidbody that we'll need to find the physics information
+        Rigidbody2D ourRigidbody = GetComponent<Rigidbody2D>();
+        
+        // Find out from the rigidbody what our current horizontal and vertical speeds
+        float currentSpeedH = ourRigidbody.linearVelocity.x;
+        float currentSpeedV = ourRigidbody.linearVelocity.y;
+        
+        // Get the animator component that we will be using for setting our animation
+        Animator ourAnimator = GetComponent<Animator>();
+        
+        // Tell our animator what the speeds are
+        ourAnimator.SetFloat("SpeedH", currentSpeedH); ourAnimator.SetFloat("SpeedV", currentSpeedV);
+    }
+
     private void Awake()
     {
         physicsBody = GetComponent<Rigidbody2D>();
