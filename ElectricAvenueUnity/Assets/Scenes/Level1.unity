@@ -1346,10 +1346,12 @@ Transform:
   m_GameObject: {fileID: 327675527}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.46, y: 3.45, z: -7}
+  m_LocalPosition: {x: -10.43, y: 3.45, z: -7}
   m_LocalScale: {x: 0.8362, y: 0.8362, z: 0.8362}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 977363984}
+  - {fileID: 939416653}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!70 &327675531
@@ -1927,20 +1929,20 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 939416649}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -7}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.1958861, y: 1.1958861, z: 1.1958861}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1937031704}
   - {fileID: 147930540}
   - {fileID: 669574042}
   - {fileID: 1086833915}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 327675530}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -9.43, y: -10.28}
+  m_AnchoredPosition: {x: -15.23, y: -12.09}
   m_SizeDelta: {x: 3.5755, y: 2.0204}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &977363981
@@ -2029,12 +2031,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 977363981}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -3.5876584}
+  m_LocalScale: {x: 1.1958861, y: 1.1958861, z: 1.1958861}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 327675530}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &977363985
 MonoBehaviour:
@@ -2284,7 +2286,7 @@ GameObject:
   - component: {fileID: 1211823634}
   - component: {fileID: 1211823638}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4848,11 +4850,9 @@ MonoBehaviour:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 977363984}
   - {fileID: 327675530}
   - {fileID: 457255201}
   - {fileID: 1479349365}
-  - {fileID: 939416653}
   - {fileID: 1283656008}
   - {fileID: 313238570}
   - {fileID: 602225796}
