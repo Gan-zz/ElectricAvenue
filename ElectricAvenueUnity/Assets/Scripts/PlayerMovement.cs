@@ -19,7 +19,8 @@ public class PlayerMovement : MonoBehaviour
         Animator ourAnimator = GetComponent<Animator>();
         
         // Tell our animator what the speeds are
-        ourAnimator.SetFloat("SpeedH", currentSpeedH); ourAnimator.SetFloat("SpeedV", currentSpeedV);
+        ourAnimator.SetFloat("SpeedH", currentSpeedH); 
+        ourAnimator.SetFloat("SpeedV", currentSpeedV);
     }
 
     private void Awake()

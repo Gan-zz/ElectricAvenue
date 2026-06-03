@@ -9,7 +9,7 @@ public class Timer : MonoBehaviour
     [SerializeField] float elapsedTime;
     void Update()
     {
-        //if the Time is above 0
+        //if the Time is above or equal to 0
         if (elapsedTime >= 0)
         {
             elapsedTime += Time.deltaTime;
