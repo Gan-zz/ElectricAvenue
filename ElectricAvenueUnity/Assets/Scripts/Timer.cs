@@ -10,11 +10,11 @@ public class Timer : MonoBehaviour
 
     void Update()
     {
-        //if the Time is above or equal to 0
+        //if the elapsedTime is above or equal to 0
 
         if (elapsedTime >= 0)
         {
-            //increade the elapsed time by the time passed since the last frame
+            //increases the elapsed time by the time passed since the last frame
             //Time.deltaTime makes sure the timer updates smoothly regardless of frame rate
             elapsedTime += Time.deltaTime;
         }
